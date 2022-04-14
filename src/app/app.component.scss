@@ -1,0 +1,66 @@
+img{
+  width: 100%;
+}
+
+.wrapper{
+  padding: 0 50px;
+
+  .title,
+  .help,
+  .header{
+    display: flex;
+    flex-direction: row;
+  }
+  .header{
+    justify-content: space-between;
+    padding: 20px 0;
+    .help{
+      color: #5dd55d;
+      h3{
+        padding-left: 5px;
+        font-weight: bold;
+      }
+    }
+    .title {
+      color: darkblue;
+      h2{
+        padding-right: 10px ;
+        font-weight: bold;
+      }
+    }
+  }
+
+  .table{
+    width: 100%;
+  }
+
+  .mat-column-title{
+    width: 80%;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 0;
+  }
+
+  .mat-column-search{
+    padding-right: 40px;
+    color: darkblue
+  }
+
+  .mat-column-abc,
+  .mat-column-settings{
+    padding-right: 15px;
+    color: darkblue;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  .mat-column-delete{
+    padding:0;
+    color: darkblue;
+  }
+
+  .addDictionary{
+    padding: 20px 0;
+    color: darkblue;
+  }
+
+}
